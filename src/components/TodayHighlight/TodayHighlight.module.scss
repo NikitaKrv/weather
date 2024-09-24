@@ -1,0 +1,15 @@
+body[data-theme='dark'] .todayHighlightBg {
+	background: radial-gradient(circle, rgba(22, 40, 80, 1) 0%, rgba(18, 26, 45, 1) 100%);
+}
+
+body[data-theme='light'] .todayHighlightBg {
+	background: radial-gradient(circle, rgba(224, 229, 241, 1) 0%, rgba(242, 242, 242, 1) 100%);
+}
+
+.todayHighlight {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+	width: 100%;
+}

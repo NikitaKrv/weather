@@ -1,0 +1,14 @@
+.dayForecast {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+}
+
+.time {
+	display: flex;
+	justify-content: space-around;
+	font-size: 16px;
+	margin-top: 5px;
+	height: 20px;
+	flood-color: var(--color-text-secondary);
+}

@@ -1,0 +1,16 @@
+.board {
+	padding: 24px;
+	background-color: var(--color-bg-secondary);
+	border-radius: 16px;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 680px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 24px;
+}

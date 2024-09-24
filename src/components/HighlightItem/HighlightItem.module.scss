@@ -1,0 +1,33 @@
+.item {
+	padding: 15px 15px;
+	background-color: var(--color-bg-item);
+	width: 204px;
+	height: 134px;
+	display: flex;
+	align-items: center;
+	border-radius: 16px;
+}
+
+.title {
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.img {
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+}
+
+.value {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.measurement {
+	font-size: 14px;
+	margin-left: 5px;
+	color: var(--color-text-secondary);
+}

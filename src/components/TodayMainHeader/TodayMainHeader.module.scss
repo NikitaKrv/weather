@@ -1,0 +1,62 @@
+.mainHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.location {
+	background-color: var(--color-bg-item);
+	max-width: 85%;
+	height: 40px;
+	border-radius: 20px;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 18px;
+
+	img {
+		height: 20px;
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.select {
+	[class$="-control"] {
+		background-color: var(--color-bg-item);
+		border: none;
+		cursor: pointer;
+		box-shadow: none !important;
+
+		&:hover {
+			border: none;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	[class$="-menu"] {
+		background-color: var(--color-bg-item);
+		margin-top: 4px;
+		border: 1px solid var(--color-bg);
+
+		[class$="-option"] {
+			cursor: pointer;
+			background-color: var(--color-bg-item);
+		}
+	}
+
+	[class$="-indicatorContainer"] {
+		color: var(--color-text);
+	}
+}

@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+	width: 100%;
+
+	img {
+		height: 50px;
+	}
+
+	@media (max-width: 1470px) {
+		margin: 0 auto 32px;
+		max-width: 680px;
+	}
+}
+
+

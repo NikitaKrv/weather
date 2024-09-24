@@ -1,0 +1,27 @@
+.foundCities {
+	position: fixed;
+	overflow: auto;
+	width: 500px;
+	max-height: 200px;
+	background-color: var(--color-bg-secondary);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding: 0 63px;
+	z-index: 999;
+
+	li {
+		cursor: pointer;
+		margin: 10px 0;
+		color: var(--color-text);
+	}
+
+	&::-webkit-scrollbar {
+		width: 9px;
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		background-color: var(--color-text-secondary);
+	}
+}
